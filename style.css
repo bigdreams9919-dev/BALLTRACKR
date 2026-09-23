@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #111;
+}
+
+.app {
+  max-width: 430px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 28px 20px 100px;
+  background: white;
+}
+
+.welcome {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.streak {
+  margin: 25px 0;
+  padding: 20px;
+  border-radius: 18px;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.streak p {
+  color: #aaa;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.streak h2 {
+  font-size: 22px;
+}
+
+.streak span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.section-title {
+  font-size: 18px;
+  margin: 25px 0 12px;
+}
+
+.training-card {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.training-card h2 {
+  font-size: 17px;
+  margin: 7px 0;
+}
+
+.training-card p {
+  color: #777;
+  font-size: 12px;
+}
+
+.tag {
+  font-size: 10px !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+button {
+  border: none;
+  background: #111;
+  color: white;
+  padding: 11px 17px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.stat {
+  padding: 18px 10px;
+  background: #f5f5f5;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.stat strong {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.stat span {
+  font-size: 10px;
+  color: #777;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(430px, 100%);
+  padding: 14px 20px;
+  background: white;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  font-size: 20px;
+  color: #888;
+  text-decoration: none;
+}
+
+nav span {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+nav .active {
+  color: #111;
+}
